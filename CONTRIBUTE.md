@@ -38,5 +38,4 @@ By contributing to CA Mobile App Services SDK, you agree that your contributions
 
 
  [guidelines]: https://github.com/CAAPIM/iOS-MAS-SDK/blob/develop/GUIDELINES.md
- [community] : http://mas.ca.com/community/
- 
+ [community]: http://mas.ca.com/community/
