@@ -15,7 +15,7 @@ For more information about MAS and its features, see [the website][mas.ca.com] a
 
 ## Getting Started
 
-Currently ```MASFoundation``` is the only open sourced framework. You can download it latest build in the [releases][releases] page.
+Currently `MASFoundation` is the only open sourced framework. You can download it latest build in the [releases][releases] page.
 
 
 ## How Do I Contribute?
