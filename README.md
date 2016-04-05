@@ -20,7 +20,7 @@ Currently ```MASFoundation``` is the only open sourced framework. You can downlo
 
 ## How Do I Contribute?
 
-We want to make contributing to this project as easy and transparent as possible. Please refer to the [Contribution Guidelines][contributing].
+Contribution are welcome and much appreciated. Please refer to the [Contribution Guidelines][contributing] to learn more about this process.
 
 
 ## License
