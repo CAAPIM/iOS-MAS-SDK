@@ -19,7 +19,7 @@ We'll do our best to provide updates and feedback throughout the process.
 5. Make sure your code follow the [Code Standard Guideline][guidelines]
 
 ## Bugs
-We work hard to avoid them, but you may still run into some issues. GitHub issues will be used for any bugs found in our SDK. General or technical questions as well as feedbacks should be posted on our [Community Page][mas.ca.com]
+We work hard to avoid them, but you may still run into some issues. GitHub issues will be used for any bugs found in our SDK. General or technical questions as well as feedbacks should be posted on our [Community Page][community]
 
 ### Known Issues
 We use GitHub issues to track public bugs. We will keep a close eye on this and try to make it clear when we have an internal fix in progress. Before filing a new issue, try to make sure your problem doesn't already exist.
@@ -34,14 +34,9 @@ When reporting a new issue, please try to provide us with details and steps to r
 * Anything else you find relevant. 
 
 ## License
-By contributing to Parse iOS/OSX SDK, you agree that your contributions will be licensed under its license.
+By contributing to CA Mobile App Services SDK, you agree that your contributions will be licensed under its license.
+
 
  [guidelines]: https://github.com/CAAPIM/iOS-MAS-SDK/blob/develop/GUIDELINES.md
- [google-group]: https://groups.google.com/forum/#!forum/parse-developers
- [stack-overflow]: http://stackoverflow.com/tags/parse.com
- [bug-reports]: https://www.parse.com/help#report
- [rest-api]: https://www.parse.com/docs/rest/guide
- [parse-api-console]: http://blog.parse.com/announcements/introducing-the-parse-api-console/
- [network-debugging-tool]: https://github.com/ParsePlatform/Parse-SDK-iOS-OSX/wiki/Network-Debug-Tool
- [stacktrace-or-gtfo]: http://i.imgur.com/jacoj.jpg
- [tests-dir]: /Tests/Unit/
+ [community] : http://mas.ca.com/community/
+ 
