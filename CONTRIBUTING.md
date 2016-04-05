@@ -1,8 +1,8 @@
-# Contributing to Parse SDK for iOS/OS X
-We want to make contributing to this project as easy and transparent as possible.
+# Contributing to CA Mobile App Services SDK
+Contribution are welcome and much appreciated. It is easy to contribute to this project but to make your life easier we put together the steps your need to follow.
 
-## Code of Conduct
-Facebook has adopted a Code of Conduct that we expect project participants to adhere to. Please read [the full text](https://code.facebook.com/codeofconduct) so that you can understand what actions will and will not be tolerated.
+## Code Guideline
+MAS SDK was developed following some code guidelines and we expect project participants to adhere to. Please refer to [Code Standard and Guideline][guidelines] for the complete document.
 
 ## Our Development Process
 Most of our work will be done in public directly on GitHub. There may be changes done through our internal source control, but it will be rare and only as needed.
@@ -57,6 +57,7 @@ We're still working on providing a code style for your IDE and getting a linter 
 ## License
 By contributing to Parse iOS/OSX SDK, you agree that your contributions will be licensed under its license.
 
+ [guidelines]: https://github.com/CAAPIM/iOS-MAS-SDK/blob/develop/GUIDELINES.md
  [google-group]: https://groups.google.com/forum/#!forum/parse-developers
  [stack-overflow]: http://stackoverflow.com/tags/parse.com
  [bug-reports]: https://www.parse.com/help#report
