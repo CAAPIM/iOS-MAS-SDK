@@ -37,5 +37,5 @@ of the MIT license. See the [LICENSE][license-link] file for details.
 
  [releases]: https://github.com/CAAPIM/iOS-MASFoundation/releases
  [contributing]: https://github.com/CAAPIM/iOS-MAS-SDK/blob/develop/CONTRIBUTE.md
- [license-link]: https://github.com/CAAPIM/iOS-MAS-SDK/blob/develop/LICENSE
+ [license-link]: /LICENSE
 
