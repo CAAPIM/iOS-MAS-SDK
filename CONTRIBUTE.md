@@ -18,6 +18,8 @@ We'll do our best to provide updates and feedback throughout the process.
 4. Ensure the test suite passes.
 5. Make sure your code follow the [Code Standard Guideline][guidelines]
 
+NOTE: By executing this pull request you are accepting [contribution agreement][contribution-agreement]
+
 ## Bugs
 We work hard to avoid them, but you may still run into some issues. GitHub issues will be used for any bugs found in our SDK. General or technical questions as well as feedbacks should be posted on our [Community Page][community]
 
@@ -34,8 +36,10 @@ When reporting a new issue, please try to provide us with details and steps to r
 * Anything else you find relevant. 
 
 ## License
-By contributing to CA Mobile App Services SDK, you agree that your contributions will be licensed under its license.
+By contributing to CA Mobile App Services SDK, you agree that your contributions will be licensed under its [license][license-link].
 
 
- [guidelines]: https://github.com/CAAPIM/iOS-MAS-SDK/blob/develop/GUIDELINES.md
+ [guidelines]: /GUIDELINES.md
  [community]: http://mas.ca.com/community/
+ [license-link]: /LICENSE
+ [contribution-agreement]: /CTB-AGREEMENT.md
