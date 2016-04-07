@@ -39,7 +39,7 @@ When reporting a new issue, please try to provide us with details and steps to r
 By contributing to CA Mobile App Services SDK, you agree that your contributions will be licensed under its [license][license-link].
 
 
- [guidelines]: https://github.com/CAAPIM/iOS-MAS-SDK/blob/develop/GUIDELINES.md
+ [guidelines]: /GUIDELINES.md
  [community]: http://mas.ca.com/community/
  [license-link]: /LICENSE
  [contribution-agreement]: /CTB-AGREEMENT.md
