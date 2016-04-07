@@ -17,8 +17,12 @@ We'll do our best to provide updates and feedback throughout the process.
 3. If you've changed APIs, update the documentation.
 4. Ensure the test suite passes.
 5. Make sure your code follow the [Code Standard Guideline][guidelines]
+6. If you haven't already, complete the Contributor License Agreement ("CLA").
 
-NOTE: By executing this pull request you are accepting [contribution agreement][contribution-agreement]
+### Contributor License Agreement ("CLA")
+In order to accept your pull request, we need you to submit a CLA. You only need to do this once to work on any of CA's open source projects.
+
+Complete your CLA here: <https://www.clahub.com/agreements/CAAPIM/Sample>
 
 ## Bugs
 We work hard to avoid them, but you may still run into some issues. GitHub issues will be used for any bugs found in our SDK. General or technical questions as well as feedbacks should be posted on our [Community Page][community]
@@ -42,4 +46,4 @@ By contributing to CA Mobile App Services SDK, you agree that your contributions
  [guidelines]: /GUIDELINES.md
  [community]: http://mas.ca.com/community/
  [license-link]: /LICENSE
- [contribution-agreement]: /CTB-AGREEMENT.md
+ 

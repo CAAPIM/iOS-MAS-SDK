@@ -36,6 +36,6 @@ of the MIT license. See the [LICENSE][license-link] file for details.
  [blog]: http://mas.ca.com/blog/
 
  [releases]: https://github.com/CAAPIM/iOS-MASFoundation/releases
- [contributing]: /CONTRIBUTE.md
+ [contributing]: /CONTRIBUTING.md
  [license-link]: /LICENSE
 
