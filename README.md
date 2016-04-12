@@ -1,8 +1,9 @@
 # CA Mobile App Services - iOS SDK
 
-MAS SDK - Essential mobile services for enterprises made simple and secure. It extends the power of the CA Gateway into mobile devices.
+## MAS SDK
+Essential mobile services for enterprises made simple and secure. Extends the power of CA Mobile API Gateway (MAG) to mobile devices.
 
-The SDK is composed by the following frameworks:
+The SDK includes the following frameworks:
 
 - [MASFoundation](https://github.com/CAAPIM/iOS-MASFoundation)
 - MASConnecta
@@ -10,17 +11,17 @@ The SDK is composed by the following frameworks:
 - MASStorage
 - MASUI
 
-For more information about MAS and its features, see [the website][mas.ca.com] and [getting started][docs].
+For more information about MAS and its features, see [the website][mas.ca.com] and [get started][docs].
 
 
-## Getting Started
+## Get Started
 
-Currently `MASFoundation` is the first framework made available on github. You can download it latest build in the [releases][releases] page.
+`MASFoundation` is the first MAS framework available on github. To download the latest build, see the [releases][releases] page.
 
 
-## How Do I Contribute?
+## How Can You Contribute?
 
-Contribution are welcome and much appreciated. Please refer to the [Contribution Guidelines][contributing] to learn more about this process.
+Contributions are welcome and much appreciated. See the [Contribution Guidelines][contributing] to learn more about this process.
 
 
 ## License
