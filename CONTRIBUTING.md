@@ -47,6 +47,6 @@ By contributing to CA Mobile App Services SDK, you agree that your contributions
 
 
  [guidelines]: /GUIDELINES.md
- [community]: http://mas.ca.com/community/
+ [community]: https://communities.ca.com/community/ca-api-management-community
  [license-link]: /LICENSE
  
