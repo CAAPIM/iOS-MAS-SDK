@@ -26,7 +26,7 @@ To accept pull requests, submit a CLA. (Submitting a single CLA lets you work on
 Complete your CLA here: <https://www.clahub.com/agreements/CAAPIM/Sample>
 
 ## Bugs
-We work hard to avoid them, but they still happen. Use GitHub issues to file bugs in the SDK. To post general or technical SDK questions, go to [Community Page][community] APIM, Mobile API Gateway.
+We work hard to avoid them, but they still happen. Use GitHub issues to file bugs in the SDK. To post general or technical SDK questions, go to [Community Page][community] CA Mobile App Services.
 
 ### Known Issues
 We also use GitHub issues for updates to known issues, including alerts when fixes are in progress. 
