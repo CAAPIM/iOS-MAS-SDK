@@ -5,7 +5,7 @@ Contributions are welcome and much appreciated. Just follow these easy steps to 
 For consistency, we ask that you adhere to some basic code guidelines when contributing to the MAS SDK. See the [Code Standard and Guideline][guidelines] for details.
 
 ## Our Development Process
-To continue involving the SDK, the MAS development team will work on the same GitHub repos as you. The `develop branch` is used for development, and the `master branch` is used only for stable releases.
+To continue improving the SDK, the MAS development team will work on the same GitHub repos as you. The `develop branch` is used for development, and the `master branch` is used only for stable releases.
 **Note:** For production environments, please use releases only from the master branch.
 
 ### Pull Requests
@@ -15,10 +15,10 @@ Follow these steps for pull requests:
 
 1. Fork the repo and create your branch from `master`.
 4. For any new code, add unit tests.
-3. If you've changed APIs, update the documentation.
+3. If you've changed APIs, update code comments for AppleDocs.
 4. Verify that the test suite passes.
 5. Verify that your code follows the [Code Standard Guideline][guidelines]
-6. If you haven't already, complete the Contributor License Agreement ("CLA").
+6. If you haven't already, complete the [Contributor License Agreement ("CLA")][CLA].
 
 ### Contributor License Agreement ("CLA")
 To accept pull requests, submit a CLA. (Submitting a single CLA lets you work on any open source projects from CA, Inc.)
@@ -27,6 +27,8 @@ Complete your CLA here: <https://www.clahub.com/agreements/CAAPIM/Sample>
 
 ## Bugs
 We work hard to avoid them, but they still happen. Use GitHub issues to file bugs in the SDK. To post general or technical SDK questions, go to [Community Page][community] CA Mobile App Services.
+
+If you're a CA customer open an issue here [link][]
 
 ### Known Issues
 We also use GitHub issues for updates to known issues, including alerts when fixes are in progress. 
@@ -49,4 +51,6 @@ By contributing to CA Mobile App Services SDK, you agree that your contributions
  [guidelines]: /GUIDELINES.md
  [community]: https://communities.ca.com/community/ca-api-management-community
  [license-link]: /LICENSE
+ [CLA]: https://www.clahub.com/agreements/CAAPIM/Sample
+ [CASupport]: http://mas.ca.com
  
