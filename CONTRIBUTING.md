@@ -18,7 +18,7 @@ Follow these steps for pull requests:
 3. If you've changed APIs, update code comments for AppleDocs.
 4. Verify that the test suite passes.
 5. Verify that your code follows the [Code Standard Guideline][guidelines]
-6. If you haven't already, complete the [Contributor License Agreement ("CLA")][CLA].
+6. If you haven't already, complete the [Contributor License Agreement ("CLA")][cla].
 
 ### Contributor License Agreement ("CLA")
 To accept pull requests, submit a CLA. (Submitting a single CLA lets you work on any open source projects from CA, Inc.)
@@ -26,9 +26,8 @@ To accept pull requests, submit a CLA. (Submitting a single CLA lets you work on
 Complete your CLA here: <https://www.clahub.com/agreements/CAAPIM/Sample>
 
 ## Bugs
-We work hard to avoid them, but they still happen. Use GitHub issues to file bugs in the SDK. To post general or technical SDK questions, go to [Community Page][community] CA Mobile App Services.
-
-If you're a CA customer open an issue here [link][]
+We work hard to avoid them, but they still happen. If you're a CA customer, open an issue in our [Support Page][casupport], otherwise use GitHub issues.
+To share ideas or ask product-related questions go to [CA Communities][community].
 
 ### Known Issues
 We also use GitHub issues for updates to known issues, including alerts when fixes are in progress. 
@@ -49,8 +48,8 @@ By contributing to CA Mobile App Services SDK, you agree that your contributions
 
 
  [guidelines]: /GUIDELINES.md
- [community]: https://communities.ca.com/community/ca-api-management-community
+ [community]: https://communities.ca.com/community/ca-api-management-community/content?filterID=contentstatus%5Bpublished%5D~category%5Bca-mobile-api-gateway%5D
  [license-link]: /LICENSE
- [CLA]: https://www.clahub.com/agreements/CAAPIM/Sample
- [CASupport]: http://mas.ca.com
+ [cla]: https://www.clahub.com/agreements/CAAPIM/Sample
+ [casupport]: https://support.ca.com/irj/portal/implsvcnewcase
  
