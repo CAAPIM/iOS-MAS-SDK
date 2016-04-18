@@ -8,7 +8,7 @@ For more information about MAS and its features, see [the website][mas.ca.com] a
 
 The MAS SDK includes the following frameworks:
 
-- [MASFoundation](https://github.com/CAAPIM/iOS-MASFoundation)
+- MASFoundation
 - MASConnecta
 - MASIdentityManagement
 - MASStorage
@@ -23,6 +23,10 @@ The MAS SDK includes the following frameworks:
 
 Contributions are welcome and much appreciated. To learn more, see the [Contribution Guidelines][contributing].
 
+
+## MAS Xcode Template Installer
+
+Please add info here.
 
 ## License
 
