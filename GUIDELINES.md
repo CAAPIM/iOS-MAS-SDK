@@ -1,25 +1,21 @@
-# CA Technologies Mobile App Service Objective-C Style Guide
+# CA Technologies Mobile App Services Objective-C Style Guide
 
-This documentation introduces and covers the Objective-C coding style of iOS team at CA Technologies Mobile App Service team.  This guideline is recommended to obey in all Objective-C implementation of our products.
+This document describes the Objective-C coding style of iOS team for CA Technologies Mobile App Services.  This guideline is recommended to comply with all Objective-C implementations of our products.
 
-## Additional Reference
+## Review Apple's Official Coding Guideline
 
-### Apple's Official Coding Guideline
-
-On top of the guidelines that we define in this document, we would also recommend to go through the following Apple's official coding guideline as well.  
+Beyond the guidelines defined in this document, we also recommend reviewing Apple's official coding guidelines.  
 
 * [Programming with Objective-C](http://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/ObjectiveC/Introduction/introObjectiveC.html)
 * [Cocoa Fundamentals Guide](https://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/CocoaFundamentals/Introduction/Introduction.html)
 * [Coding Guidelines for Cocoa](https://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html)
 * [App Programming Guide for iOS](http://developer.apple.com/library/ios/#documentation/iphone/conceptual/iphoneosprogrammingguide/Introduction/Introduction.html)
 
-### CA Technologies Mobile App Service
+### MAS Products
 
-For more information about our product, please refer to official [Mobile App Service developer](http://mas.ca.com) site.
+For more information about MAS, see [Mobile App Service developer](http://mas.ca.com).
 
-### List of MAS Products
-
-Mobile App Service consists of multiple functional products separated into individual frameworks.
+Mobile App Services consists of multiple functional products separated into individual frameworks.
 
 * MASFoundation
 * MASUI
@@ -27,7 +23,7 @@ Mobile App Service consists of multiple functional products separated into indiv
 * MASIdentityManagement
 * MASStorage
 
-All of frameworks is recommended to obey this coding guideline.
+All of frameworks are recommended to comply with the coding guideline.
 
 ## Table of Contents
 
@@ -52,14 +48,13 @@ All of frameworks is recommended to obey this coding guideline.
 
 ## Documentation
 
+All code **should be properly documented** in `.h` and `.m` files. Code documentation should adhere to Apple Doc's format.
 
-All of the code **should be properly documented** in `.h` and `.m` files. Code documentation should adhere Apple Doc's format.
+Our team uses a tool that automatically generates document format in Xcode called [VVDocumenter](https://github.com/onevcat/VVDocumenter-Xcode) available through [Alcatraz](http://alcatraz.io/).
 
-As a team, we are using a tool that automatically generates document format in Xcode called [VVDocumenter](https://github.com/onevcat/VVDocumenter-Xcode) available through [Alcatraz](http://alcatraz.io/).
+**Recommendation:** Install [Alcatraz](http://alcatraz.io/) and [VVDocumenter](https://github.com/onevcat/VVDocumenter-Xcode). This tool automatically generates the proper documentation format for methods, properties, classes, and any other form of section required for documentation.
 
-Please install [Alcatraz](http://alcatraz.io/) and [VVDocumenter](https://github.com/onevcat/VVDocumenter-Xcode), this tool will automatically generate the proper documentation format for method, property, class, and any other form of section required documentation.
-
-Elements that should be documented are as follows:
+Recommended elements to document:
 
 * Class description
 * Property
@@ -68,15 +63,15 @@ Elements that should be documented are as follows:
 * Method
 
 
-For private methods that are not available in header file, the method should still be documented in implementation file if it is only in `.m` file.
+For private methods that are not available in a header file, the method should still be documented in the implementation file if it is only in `.m` file.
 
 ## Pragma Mark
 
-`# pragma mark - ` is used to categorize methods or properties in header and implementation files in Xcode.  It is used to make the codes easier to organize and to be navigated by other developers.
+`# pragma mark - ` categorizes methods or properties in the header and implementation files in Xcode.  It makes the code easier to organize and navigate by other developers.
 
 ### Commonly Used Pragma Mark
 
-There are few commonly used `# pragma mark` in MASFoundation.  Please try to follow similar set of function categories.
+There are few a commonly used `# pragma mark` in MASFoundation.  Follow these guidelines for categories.
 
 ```objc
 # pragma mark - Properties
@@ -85,15 +80,15 @@ There are few commonly used `# pragma mark` in MASFoundation.  Please try to fol
 # pragma mark - Private
 ```
 
-These are commonly used `# pragma mark - ` in MASFoundation.  Any other functional group of methods is ok as long as it makes sense to everyone.
+These are commonly used `# pragma mark - ` in MASFoundation.  Any other functional group of methods are fine, as long as it makes sense to everyone.
 
 **For example:**
 
-In `MASDevice.h`, methods that are specifically related to BLE functionalities, we may group those methods in `# pragma mark - Bluetooth Central/Peripheral`.
+In `MASDevice.h`, methods that are related to BLE functionalities could be grouped in `# pragma mark - Bluetooth Central/Peripheral`.
 
 ### Pragma Mark syntax
 
-Please follow standard format of `pragma mark` that is also compatible with Apple Doc.
+Follow the standard format of `pragma mark` that is also compatible with Apple Doc.
 
 **For example:**
 
@@ -112,19 +107,18 @@ Please follow standard format of `pragma mark` that is also compatible with Appl
 #pragma mark - Properties
 ```
 
-* Note that you want to allow one space between # and pragma mark.
+* Note: Allow one space between # and the pragma mark.
 
 ### Organization of Pragma Mark
 
-Order of `# pragma mark` matters.  Place all of those commonly used `# pragma mark` at the top, and others followed.  
-Order of `# pragma mark` should be identical in both header and implementation files.
-
-**All of the methods** under `# pragma mark` should be in **alphabetical order**.
+- Order of the `# pragma mark` matters.  Place all of the commonly used `# pragma mark` at the top, followed by the others.  
+- Order of the `# pragma mark` should be identical in both header and implementation files.
+- **All of the methods** under `# pragma mark` should be in **alphabetical order**.
 
 
 ## Imports
 
-* Imports might be in alphabetical order
+* Imports may or may not be in alphabetical order
 * Always make use of foward declaration in the interface (.h) file. I.e. `@class MASObject` instead of `#import "MASObject.h"`
 
 **For example:**
@@ -164,10 +158,10 @@ Order of `# pragma mark` should be identical in both header and implementation f
 
 ## Constants
 
-Constants are meant to be used for easy reproduction of commonly used values in multiple places in a same or multiple classes and also for avoiding a situation inserting hard coded values in implementation file.
-Any contant values that have to be publicly available, place constants in `MASConstant.h` file, otherwise, place constants in `MASConstantsPrivate.h` files.
+Constants are meant to be used 1) for easy reproduction of commonly used values in multiple places in same or multiple classes and 2) to avoid insertion of hard coded values in the implementation file.
+For contant values that will be publicly available, place constants in `MASConstant.h` file; otherwise, place constants in `MASConstantsPrivate.h` files.
 
-For constants' syntax, always declare the variable as `static` constant and avoid using `#define` unless otherwise it's meant to be used as a macro.
+For constants syntax, always declare the variable as a `static` constant and avoid using `#define` unless it is meant to be used as a macro.
 
 **For example:**
 
@@ -184,14 +178,14 @@ static NSString *const MASPublicConstantValue = @"MASPublicConstantValue";
 
 ## Spacing / Newline
 
-* All of the spacing format should be consistent across all places in the code.
-* Indentation should be using 4 spaces.  Please make sure in `Xcode's preference > Text Editing > Indentation`, Tab and indentation are 4 spaces (default value).
+* Use consistent spacing format across all places in the code.
+* For indentation, use 4 spaces. In `Xcode's preference > Text Editing > Indentation`, Tab and indent 4 spaces (default value).
 
 
 ### Documentation / In-line Comment
 
 #### Documentation
-* For method, property, and class documentation, please use [VVDocumenter](https://github.com/onevcat/VVDocumenter-Xcode) to make it consistent for all documentation style.
+* For methods, properties, and class documentation, use [VVDocumenter](https://github.com/onevcat/VVDocumenter-Xcode) to ensure consistency for documentation styles.
 
 **For example:**
 * Method
@@ -216,10 +210,10 @@ static NSString *const MASPublicConstantValue = @"MASPublicConstantValue";
 
 #### In-line Comment
 
-* Place an in-line comment right above the line of codes
-* In-line comment should be added to help understand the code easily by other developers
-* There should be leading and trailing empty in-line comment, `//`
-* Insert **1 space** in between the comments and in-line comment section
+* Add an in-line comment above the line of code
+* Add in-line comments to ensure understanding for other developers
+* Use leading and trailing empty in-line comment, `//`
+* Add **1 space** between the comments and in-line comment section
 
 **For example:**
 
@@ -238,7 +232,7 @@ static NSString *const MASPublicConstantValue = @"MASPublicConstantValue";
 ### Property / Enum
 
 #### Spacing
-* Space should be added for each word and `*` and `property name` should not have a space.
+* Spaces should be added for each word and `*` and `property name` should not have a space.
 
 **For examples:**
 
@@ -262,7 +256,7 @@ typedef NS_ENUM(NSInteger, MASDeviceRegistrationType)
 ```
 
 #### Newline
-* There should be __2 new lines__ in between each property declaration and **1 new line** for the first property in `pragma mark section` in `.h` file along with proper documentation for the description of the property.
+* Use __2 new lines__ between each property declaration and **1 new line** for the first property in `pragma mark section` in `.h` file. And use proper documentation for the description of the property.
 
 **For examples:**
 
@@ -341,8 +335,8 @@ typedef NS_ENUM(NSInteger, MASRequestResponseType)
 ### Method
 
 #### Spacing
-* There should be **1 space** after the method scope and in between the method segments.
-* There should also be **1 space** in between `object type` and `*` for every parameter and return type of the method if needed.
+* Use **1 space** after the method scope and between the method segments.
+* Use **1 space** between `object type` and `*` for every parameter and return type of the method if needed.
 
 **For example:**
 
@@ -366,10 +360,10 @@ typedef NS_ENUM(NSInteger, MASRequestResponseType)
 
 #### Newline
 
-* There should be __3 new lines__ in between each method declarations and **1 new line** for the first property in `pragma mark section` in `.h` file.
-* There should be __2 new lines__ in between each method declarations and **1 new line** for the first property in `pragma mark section` in `.m` file.
+* Use __3 new lines__ between each method declarations and **1 new line** for the first property in `pragma mark section` in `.h` file.
+* Use __2 new lines__ between each method declarations and **1 new line** for the first property in `pragma mark section` in `.m` file.
 * Opening and closing braces for method implementation should always be in newline.
-* All private method that are not present in `.h` file should also be documented in `.m` file with same documentation format.
+* All private methods that are not present in `.h` file should also be documented in `.m` file with same documentation format.
 
 **For example: (.h file)**
 
@@ -426,7 +420,7 @@ typedef NS_ENUM(NSInteger, MASRequestResponseType)
 
 #### Spacing / Newline
 
-* There should be **1 space** in between control statement and bracket as well as properties and operator.
+* Use **1 space** in between control statement and bracket as well as properties and operator.
 * Opening brace should always be in new line for first `if` statement, other `else` or `else if`'s opening brace should be placed in the same line.
 * Closing brace should always be in new line.
 * Opening and closing brace should always be included even for one line of code in the statement.
@@ -517,9 +511,9 @@ for(NSString *stringObj in objects){
 
 ## Nullability for Swift
 
-As we are aiming to support Swift with bridge header, please be aware of Nullability while writing codes in Objective-C.  In Objective-C, Nullability does not make any differece, but it will make a difference when developers are using our framework in Swift.
+Because we want to support Swift with bridge header, please be aware of Nullability while writing codes in Objective-C.  In Objective-C, Nullability does not make any difference, but it will make a difference when developers are using our framework in Swift.
 
-Please properly use `_Nullable` and `_Nonnull` type annotation in properties and methods.
+Use `_Nullable` and `_Nonnull` type annotation in properties and methods.
 
 **For example:**
 
@@ -528,15 +522,15 @@ Please properly use `_Nullable` and `_Nonnull` type annotation in properties and
 @property (copy, readonly, nonnull) NSDictionary *thisDictionary;
 ```
 
-For more detail, please review [this blog post](https://developer.apple.com/swift/blog/?id=25)
+For more detail, see [this blog post](https://developer.apple.com/swift/blog/?id=25)
 
 ## Project Configuration Guideline
 
-As we are maintaining multiple frameworks, please ensure that all framework should adhere same style, format, and file structure.
+Because we are maintaining multiple frameworks, ensure that all frameworks use the same style, format, and file structure.
 
 ### File Structure
 
-For any new files or folder (groups in xCode), please adhere the following folder structure.
+For any new files or folder (groups in xCode), use the following folder structure.
 
 ```objc
 - Framework name folder (i.e. MASFoundation, MASUI, MASConnecta)
@@ -553,27 +547,27 @@ For any new files or folder (groups in xCode), please adhere the following folde
 
 * All public files should be located under `Classes`, `categories (under Classes)` and `models (under Classes)`.
 * All private files should be located under `categories`, `services`, `models`, or any other folders under `_private` folder.
-* When making a new group in Xcode, please make sure to create an **actual directory** in file system, and add the directory into project as group.
-* Any third-party libraries being used, please include them in `Vendor` folder.
-* It is recommended to rename the prefix of third-party libraries in order to avoid any conflict with other developers' project which may use the same library.
-* Please always ensure the license of the third-party library and consult it with other team member if it is allowed to use.
+* When making a new group in Xcode, create an **actual directory** in file system, and add the directory into the project as group.
+* If third-party libraries are being used, include them in the `Vendor` folder.
+* It is recommended to rename the prefix of third-party libraries to avoid any conflict with other developers' project which may use the same library.
+* Verify that you have a valid third-party library license, and that you are allowed to use it.
 
 ### Class Naming
 
 
-* All classes should start with prefix, `MAS`, except for category class from iOS SDK or other vendors.
+* All classes should start with the prefix, `MAS`, except for the category class from iOS SDK or other vendors.
 
 #### All frameworks
-* For newly created model class, the class should be inherited from `MASObject.h`.
-* For newly created service class, the class should be inherited from `MASService.h`.
-* For class used in two or more frameworks, a model of the class must be created in `MASFoundation` and a category of the class in the specific framework.
+* For a newly created model class, the class should be inherited from `MASObject.h`.
+* For a newly created service class, the class should be inherited from `MASService.h`.
+* For a class used in two or more frameworks, a model of the class must be created in `MASFoundation` and a category of the class in the specific framework.
 
 #### MASService
 
-When you create a new service class, make sure to implement service class inherited from `MASService`.
+When you create a new service class, make sure to implement a service class that is inherited from `MASService`.
 
-* Please make sure to define a constant in `MASConstantsPrivate.h` class with uniquely generated UUID.
-* When you are creating service class in external framework outside of `MASFoundation`, please make sure to include the UUID in `MASConstantsPrivate.h` and use the **same** UUID value in external service class' `+ (NSString *)serviceUUID` property.
+* Define a constant in `MASConstantsPrivate.h` class with a uniquely generated UUID.
+* When you are creating a service class in an external framework outside of `MASFoundation`, include the UUID in `MASConstantsPrivate.h` and use the **same** UUID value in the external service class' `+ (NSString *)serviceUUID` property.
 
 **For example:**
 
@@ -586,10 +580,10 @@ When you create a new service class, make sure to implement service class inheri
 ```
 
 #### MASUI
-* For newly created `viewController` class, the class should be inherited from `MASViewController.h`.
+* For a newly created `viewController` class, the class should be inherited from `MASViewController.h`.
 
 #### Category Class
-For public category classes, name it with the framework name. If the category is not public, name it with the framework name and the word `Private` in the end. Privates categories must be created under the `_private_` folder.  
+For public category classes, specify the name using the framework name. If the category is not public, use the framework name and the word `Private` in the end. Privates categories must be created under the `_private_` folder.  
 
 **For example:**
 
@@ -603,7 +597,7 @@ For public category classes, name it with the framework name. If the category is
 
 ### Framework Error Handling
 
-All framework handles the error with proper framework error domains.
+All frameworks handle errors with proper framework error domains.
 
 In MASConstants, or any framework constant file, properly define the error domain constants.  The error domain format should be **com.ca.FRAMEWORKNAME:SUB_DOMAIN**.
 
