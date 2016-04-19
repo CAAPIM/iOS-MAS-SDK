@@ -43,5 +43,5 @@ of the MIT license. See the [LICENSE][license-link] file for details.
  [releases]: https://github.com/CAAPIM/iOS-MASFoundation/releases
  [contributing]: /CONTRIBUTING.md
  [license-link]: /LICENSE
- [templates]: /TemplateInstaller/MobileSDK.dmg
+ [templates]: https://raw.github.com/CAAPIM/iOS-MAS-SDK/TemplateInstaller/MobileSDK.dmg
 
