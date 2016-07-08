@@ -2,7 +2,7 @@
 
 ## MAS SDK
 Essential mobile services for enterprises made simple and secure. Extends the power of CA Mobile API Gateway (MAG) to mobile devices.
-For more information about MAS and its features, see [the website][mas.ca.com] and [get started][mas.ca.com/get-started/].
+For more information about MAS and its features, see [the website][mas.ca.com] and [get started][get-started].
 
 ## MAS SDK Frameworks
 
@@ -38,6 +38,7 @@ of the MIT license. See the [LICENSE][license-link] file for details.
 
 
  [mas.ca.com]: http://mas.ca.com/
+ [get-started]: http://mas.ca.com/get-started
  [docs]: http://mas.ca.com/docs/
  [blog]: http://mas.ca.com/blog/
 
