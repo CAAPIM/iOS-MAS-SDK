@@ -8,8 +8,8 @@ For more information about MAS and its features, see [the website][mas.ca.com] a
 
 The MAS SDK includes the following frameworks:
 
-- [MASFoundation][mas.ca.com/CAAPIM/iOS-MAS-Foundation]
-- [MASUI][mas.ca.com/CAAPIM/iOS-MAS-UI]
+- [MASFoundation][MASFoundation]
+- [MASUI][MASUI]
 - MASConnecta
 - MASIdentityManagement
 - MASStorage
@@ -42,6 +42,8 @@ of the MIT license. See the [LICENSE][license-link] file for details.
  [docs]: http://mas.ca.com/docs/
  [blog]: http://mas.ca.com/blog/
 
+ [MASFoundation]: https://github.com/CAAPIM/iOS-MASFoundation
+ [MASUI]: https://github.com/CAAPIM/iOS-MAS-UI
  [releases]: https://github.com/CAAPIM/iOS-MASFoundation/releases
  [contributing]: /CONTRIBUTING.md
  [license-link]: /LICENSE
