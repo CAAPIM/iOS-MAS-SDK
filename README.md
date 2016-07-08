@@ -2,21 +2,22 @@
 
 ## MAS SDK
 Essential mobile services for enterprises made simple and secure. Extends the power of CA Mobile API Gateway (MAG) to mobile devices.
-For more information about MAS and its features, see [the website][mas.ca.com] and [get started][docs].
+For more information about MAS and its features, see [the website][mas.ca.com] and [get started][http://mas.ca.com/get-started/].
 
 ## MAS SDK Frameworks
 
 The MAS SDK includes the following frameworks:
 
-- MASFoundation
+- [MASFoundation][https://github.com/CAAPIM/iOS-MAS-Foundation]
+- [MASUI][https://github.com/CAAPIM/iOS-MAS-UI]
 - MASConnecta
 - MASIdentityManagement
 - MASStorage
-- MASUI
+
 
 ## Get Started
 
-`MASFoundation` is the first MAS framework available on github. To download the latest build, see the [releases][releases] page.
+`MASFoundation` is the first MAS framework available on github.
 
 
 ## How You Can Contribute
