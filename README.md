@@ -10,14 +10,9 @@ The MAS SDK includes the following frameworks:
 
 - [MASFoundation][MASFoundation]
 - [MASUI][MASUI]
-- MASConnecta
-- MASIdentityManagement
-- MASStorage
-
-
-## Get Started
-
-`MASFoundation` is the first MAS framework available on github.
+- [MASConnecta][MASConnecta]
+- [MASIdentityManagement][MASIdentityManagement]
+- [MASStorage][MASStorage]
 
 
 ## How You Can Contribute
@@ -44,6 +39,9 @@ of the MIT license. See the [LICENSE][license-link] file for details.
 
  [MASFoundation]: https://github.com/CAAPIM/iOS-MAS-Foundation
  [MASUI]: https://github.com/CAAPIM/iOS-MAS-UI
+ [MASStorage]: https://github.com/CAAPIM/iOS-MAS-Storage
+ [MASConnecta]: https://github.com/CAAPIM/iOS-MAS-Connecta
+ [MASIdentityManagement]: https://github.com/CAAPIM/iOS-MAS-IdentityManagement
  [releases]: https://github.com/CAAPIM/iOS-MASFoundation/releases
  [contributing]: /CONTRIBUTING.md
  [license-link]: /LICENSE
