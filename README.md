@@ -4,6 +4,24 @@
 Essential mobile services for enterprises made simple and secure. Extends the power of CA Mobile API Gateway (MAG) to mobile devices.
 For more information about MAS and its features, see [the website][mas.ca.com] and [get started][get-started].
 
+## MAS Xcode Template Installer
+
+The iOS App Templates make starting your app easy. The download includes:
+
+* Two templates (MAS Basic / MAS Starter)
+* Predefined folder structure
+* Predefined code structure
+* Predefined storyboard structure
+* Predefined App icon
+* Predefined App background
+* SDK start code inside class
+* Project building setting configured
+* Project plist configured
+* Built-in login screen (MAS Starter only)
+* Built-in animation alerts (MAS Starter only)
+
+Download the MAS Xcode Templates [here][templates].
+
 ## MAS SDK Frameworks
 
 The MAS SDK includes the following frameworks:
@@ -19,10 +37,6 @@ The MAS SDK includes the following frameworks:
 
 Contributions are welcome and much appreciated. To learn more, see the [Contribution Guidelines][contributing].
 
-
-## MAS Xcode Template Installer
-
-Download the MAS Xcode Templates [here][templates].
 
 ## License
 
