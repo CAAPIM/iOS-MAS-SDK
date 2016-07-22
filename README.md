@@ -1,8 +1,12 @@
-# CA Mobile App Services - iOS SDK
+# iOS Mobile SDK
+## for CA Mobile App Services and CA Mobile API Gateway
 
-## MAS SDK
-Essential mobile services for enterprises made simple and secure. Extends the power of CA Mobile API Gateway (MAG) to mobile devices.
-For more information about MAS and its features, see [the website][mas.ca.com] and [get started][get-started].
+## Overview
+The iOS Mobile SDK gives developers simple and secure access to the services of CA Mobile API Gateway and CA Mobile App Services. 
+For more information about our mobile products see [the website][mas.ca.com].
+
+## Get Started
+Follow our step-by-step guide to [get started][get-started].
 
 ## MAS Xcode Template Installer
 
