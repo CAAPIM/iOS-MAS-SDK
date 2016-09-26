@@ -37,6 +37,11 @@ The MAS SDK includes the following frameworks:
 - [MASStorage][MASStorage]
 
 
+## MAS SDK Releases
+
+The compiled release binaries can be found here:
+- [Releases][Releases]
+
 ## How You Can Contribute
 
 Contributions are welcome and much appreciated. To learn more, see the [Contribution Guidelines][contributing].
@@ -60,7 +65,7 @@ of the MIT license. See the [LICENSE][license-link] file for details.
  [MASStorage]: https://github.com/CAAPIM/iOS-MAS-Storage
  [MASConnecta]: https://github.com/CAAPIM/iOS-MAS-Connecta
  [MASIdentityManagement]: https://github.com/CAAPIM/iOS-MAS-IdentityManagement
- [releases]: https://github.com/CAAPIM/Releases
+ [Releases]: https://github.com/CAAPIM/Releases
  [contributing]: /CONTRIBUTING.md
  [license-link]: /LICENSE
  [templates]: https://github.com/CAAPIM/iOS-MAS-SDK/blob/develop/TemplateInstaller/MobileSDK.dmg?raw=true
