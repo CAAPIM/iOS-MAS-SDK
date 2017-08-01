@@ -6,7 +6,7 @@ The iOS Mobile SDK gives developers simple and secure access to the services of 
 For more information about our mobile products see [the website][mas.ca.com].
 
 ## Get Started
-Check out our [documentation][documentation] for sample code and video tutorials.
+Check out our [documentation](https://www.ca.com/us/developers/mas/docs.html) for sample code and video tutorials.
 
 ## MAS Xcode Template Installer
 
