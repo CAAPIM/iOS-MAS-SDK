@@ -1,17 +1,16 @@
 # iOS Mobile SDK
 ## for CA Mobile API Gateway
 
-## Overview
 The iOS Mobile SDK gives developers simple and secure access to the services of CA Mobile API Gateway. For more information about our mobile SDKs see [developer website][mas.ca.com].
 
 ## Get Started
 Check out our [documentation](https://www.ca.com/us/developers/mas/docs.html) for sample code and video tutorials.
 
-## MAS Xcode Template Installer
+## Mobile SDK App Templates 
 
-The iOS App Templates make starting your app easy. The download includes:
+The iOS App templates make starting your app easy. The download includes:
 
-* Two templates (MAS Basic / MAS Starter)
+* Two templates: MAS Basic or MAS Starter
 * Predefined folder structure
 * Predefined code structure
 * Predefined storyboard structure
@@ -23,11 +22,11 @@ The iOS App Templates make starting your app easy. The download includes:
 * Built-in login screen (MAS Starter only)
 * Built-in animation alerts (MAS Starter only)
 
-Download the MAS Xcode Templates [here][templates].
+Download the Mobile SDK App Templates [here][templates].
 
 ## iOS Mobile SDK Frameworks
 
-The MAS SDK includes the following frameworks:
+The iOS Moble SDK includes the following frameworks:
 
 - [MASFoundation][MASFoundation]
 - [MASUI][MASUI]
