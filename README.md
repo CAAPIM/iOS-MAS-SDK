@@ -1,17 +1,16 @@
 # iOS Mobile SDK
 ## for CA Mobile API Gateway
 
-## Overview
 The iOS Mobile SDK gives developers simple and secure access to the services of CA Mobile API Gateway. For more information about our mobile SDKs see [developer website][mas.ca.com].
 
 ## Get Started
 Check out our [documentation](https://www.ca.com/us/developers/mas/docs.html) for sample code and video tutorials.
 
-## MAS Xcode Template Installer
+## Mobile SDK App Templates 
 
-The iOS App Templates make starting your app easy. The download includes:
+The iOS App templates make starting your app easy. The download includes:
 
-* Two templates (MAS Basic / MAS Starter)
+* Two templates: MAS Basic or MAS Starter
 * Predefined folder structure
 * Predefined code structure
 * Predefined storyboard structure
@@ -23,11 +22,11 @@ The iOS App Templates make starting your app easy. The download includes:
 * Built-in login screen (MAS Starter only)
 * Built-in animation alerts (MAS Starter only)
 
-Download the MAS Xcode Templates [here][templates].
+Download the Mobile SDK App Templates [here][templates].
 
 ## iOS Mobile SDK Frameworks
 
-The MAS SDK includes the following frameworks:
+The iOS Moble SDK includes the following frameworks:
 
 - [MASFoundation][MASFoundation]
 - [MASUI][MASUI]
@@ -39,6 +38,17 @@ The MAS SDK includes the following frameworks:
 ## SDK Releases
 
 The compiled release binaries can be found here: [Releases][Releases]
+
+
+## Sample Apps
+**All sample apps have moved to GITHub as of 1.6.00 release. Links will redirect to the latest released versions.**
+   
+- [Sample-App-MAS-iOS-Access-API-Geolocation-And-OTP](https://github.com/CAAPIM/Sample-App-MAS-iOS-Access-API-Geolocation-And-OTP)
+- [Sample-App-MAS-iOS-Fingerprint-Sessions-Lock](https://github.com/CAAPIM/Sample-App-MAS-iOS-Fingerprint-Sessions-Lock)
+- [Sample-App-MAS-iOS-Messaging](https://github.com/CAAPIM/Sample-App-MAS-iOS-Messaging)
+- [Sample-App-MAS-iOS-Login-User-Authentication-And-Authorization](https://github.com/CAAPIM/Sample-App-MAS-iOS-Login-User-Authentication-And-Authorization)
+- [Sample-App-MAS-iOS-Secure-Cloud-And-Local-Storage](https://github.com/CAAPIM/Sample-App-MAS-iOS-Secure-Cloud-And-Local-Storage)
+- [Sample-App-MAS-iOS-User-Group-Management](https://github.com/CAAPIM/Sample-App-MAS-iOS-User-Group-Management)
 
 ## How You Can Contribute
 
