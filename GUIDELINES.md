@@ -1,6 +1,6 @@
-# CA Technologies Objective-C Style Guide
+# Broadcom Objective-C Style Guide
 
-This document describes the Objective-C coding style of the iOS Mobile SDK team.  This guideline is recommended to comply with all Objective-C implementations of our products.
+This document describes the Objective-C coding style of the iOS Mobile SDK team. This guideline is recommended to comply with all Objective-C implementations of our products.
 
 ## Review Apple Official Coding Guideline
 
