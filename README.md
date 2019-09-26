@@ -1,10 +1,10 @@
 # iOS Mobile SDK
 ## for CA Mobile API Gateway
 
-The iOS Mobile SDK gives developers simple and secure access to the services of CA Mobile API Gateway. For more information about our mobile SDKs see [developer website][mas.ca.com].
+The iOS Mobile SDK gives developers simple and secure access to the services of CA Mobile API Gateway. For more information about our mobile SDKs see [developer website][http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-enterprise-software/layer7-api-management/mobile-sdk-for-ca-mobile-api-gateway/2-0.html].
 
 ## Get Started
-Check out our [documentation](https://www.ca.com/us/developers/mas/docs.html) for sample code and video tutorials.
+Check out our [documentation](http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-enterprise-software/layer7-api-management/mobile-sdk-for-ca-mobile-api-gateway/2-0.html) for sample code and video tutorials.
 
 ## Mobile SDK App Templates 
 
@@ -57,16 +57,11 @@ Contributions are welcome and much appreciated. To learn more, see the [Contribu
 
 ## License
 
-Copyright (c) 2016 CA. All rights reserved.
+Copyright (c) 2019 Broadcom. All Rights Reserved.
+The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries.
 
 This software may be modified and distributed under the terms
 of the MIT license. See the [LICENSE][license-link] file for details.
-
-
- [mas.ca.com]: http://mas.ca.com/
- [get-started]: http://mas.ca.com/get-started
- [docs]: http://mas.ca.com/docs/
- [blog]: http://mas.ca.com/blog/
 
  [MASFoundation]: https://github.com/CAAPIM/iOS-MAS-Foundation
  [MASUI]: https://github.com/CAAPIM/iOS-MAS-UI
