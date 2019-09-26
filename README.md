@@ -1,7 +1,7 @@
 # iOS Mobile SDK
 ## for CA Mobile API Gateway
 
-The iOS Mobile SDK gives developers simple and secure access to the services of CA Mobile API Gateway. For more information about our mobile SDKs see [developer website][http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-enterprise-software/layer7-api-management/mobile-sdk-for-ca-mobile-api-gateway/2-0.html].
+The iOS Mobile SDK gives developers simple and secure access to the services of CA Mobile API Gateway. For more information about our mobile SDKs see [developer website](http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-enterprise-software/layer7-api-management/mobile-sdk-for-ca-mobile-api-gateway/2-0.html).
 
 ## Get Started
 Check out our [documentation](http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-enterprise-software/layer7-api-management/mobile-sdk-for-ca-mobile-api-gateway/2-0.html) for sample code and video tutorials.
