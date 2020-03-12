@@ -18,9 +18,8 @@ For more information, see [developer website](http://mas.ca.com).
 The iOS Mobile SDK consists of multiple functional products separated into individual frameworks.
 
 * MASFoundation
+* MASProximity
 * MASUI
-* MASConnecta
-* MASIdentityManagement
 * MASStorage
 
 All of frameworks are recommended to comply with the coding guideline.
